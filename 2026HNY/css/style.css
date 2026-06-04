@@ -1399,6 +1399,8 @@ section:nth-last-child {
 
 	.feedback-sub::before {
     margin-right: 5px;
+    width: 18px;
+    height: 18px;
 	}
 
 	.feedback-sub::after {
