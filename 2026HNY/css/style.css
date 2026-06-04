@@ -881,10 +881,6 @@ section:nth-last-child {
     margin-top: -160px;
     padding: 85px 0 0;
   } 
-
-  .synopsis-box p {
-    font-size: 16px;
-  }
 }
 
 /* 專案第二區 */
@@ -1476,6 +1472,10 @@ section:nth-last-child {
 
   .synopsis-box img {
     width: 40%;
+  }
+
+  .synopsis-box p {
+    font-size: 16px;
   }
 }
 
