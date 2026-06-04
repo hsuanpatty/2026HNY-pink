@@ -2484,6 +2484,12 @@ section:nth-last-child {
     max-width: 100%;
     padding: 0 15px;
     box-sizing: border-box;
+
+    height: 430px;
+  }
+
+  .review-front, .review-back {
+    padding: 30px 20px;
   }
 }
 
