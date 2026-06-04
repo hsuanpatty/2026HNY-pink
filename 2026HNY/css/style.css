@@ -3315,7 +3315,7 @@ section:nth-last-child {
   justify-content: center;
 
   /* 柔和陰影 */
-  box-shadow: 0 8px 20px rgba(99, 199, 247, 0.28);
+  box-shadow: 0 8px 20px rgba(226, 98, 136, 0.28);
 
   transition: all 0.3s ease;
 }
