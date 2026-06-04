@@ -1223,7 +1223,6 @@ section:nth-last-child {
     width: 34%;
 	}
 
-
 	.honeymoon-wrap .right > .gift {
     width: 70%;
 		margin: auto;
@@ -3346,6 +3345,7 @@ background: linear-gradient(135deg, #ffabb6, #e987b8);
   box-shadow: 0 12px 28px rgba(79, 182, 234, 0.38);
 }
 
+
 /* 箭頭 */
 .arrow {
   width: 10px;
@@ -3390,11 +3390,16 @@ background: linear-gradient(135deg, #ffabb6, #e987b8);
   }
 
   #movetop .arrow {
-    width: 11px;
-    height: 11px;
+    width: 8px;
+    height: 8px;
     border-left: 3px solid #fff;
     border-top: 3px solid #fff;
     margin-bottom: 1px;
+  }
+
+  #goTop {
+    width: 55px;
+    height: 55px;
   }
 
   #movetop .top-text {
