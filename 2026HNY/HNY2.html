@@ -103,11 +103,11 @@
             </li>
 
             <li class="section button-honey">
-              <img src="./images/button-2.png" alt="推薦行程" class="honey-text" />
+              <img src="./images/button-3.png" alt="好評推薦推薦行程" class="honey-text" />
             </li>
 
             <li class="section button-honey">
-              <img src="./images/button-3.png" alt="好評推薦" class="honey-text" />
+              <img src="./images/button-2.png" alt="推薦行程" class="honey-text" />
             </li>
 
             <li class="section button-honey">
@@ -555,7 +555,7 @@
         </div>
 
         <div class="bottom-btn-wrap">
-          <a href="https://www.artisan.com.tw/" class="bottom-btn">
+          <a href="https://www.luxetravel.com.tw/euro-backpack" class="bottom-btn">
             量身訂作 歐洲蜜月自由行
             <span>立即點擊了解更多</span>
           </a>
@@ -780,140 +780,68 @@
       });
     </script>
 
-    <!-- 表單 選擇行程/日期 -->
-    <!-- <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const monthSelect = document.getElementById("month");
-
-        const now = new Date();
-        const startYear = now.getFullYear();
-        const startMonth = now.getMonth() + 1;
-        const endYear = startYear + 6;
-
-        // placeholder
-        const placeholder = document.createElement("option");
-        placeholder.value = "";
-        placeholder.textContent = "請選擇年月";
-        placeholder.disabled = true;
-        placeholder.selected = true;
-        placeholder.hidden = true;
-        monthSelect.appendChild(placeholder);
-
-        // 產生月份
-        for (let y = startYear; y <= endYear; y++) {
-          const monthStart = y === startYear ? startMonth : 1;
-
-          for (let m = monthStart; m <= 12; m++) {
-            const mm = String(m).padStart(2, "0");
-
-            const option = document.createElement("option");
-            option.value = `${y}-${mm}`;
-            option.textContent = `${y}年${m}月`;
-
-            monthSelect.appendChild(option);
-          }
-        }
-
-        // 避免一次展開太長
-        monthSelect.size = 1;
-      });
-    </script> -->
-
     <script>
       document.addEventListener("DOMContentLoaded", function () {
-        /* =====================
-     月份（當月 + 10年）
-  ===================== */
+        /* 月份（當月 + 10年） */
         const monthWrap = document.getElementById("monthSelect");
-
         if (monthWrap) {
           const monthBox = monthWrap.querySelector(".select-box");
           const monthDrop = monthWrap.querySelector(".select-dropdown");
           const monthInput = document.getElementById("month");
-
           const now = new Date();
           const startYear = now.getFullYear();
           const startMonth = now.getMonth() + 1;
           const endYear = startYear + 10;
-
           for (let y = startYear; y <= endYear; y++) {
             const mStart = y === startYear ? startMonth : 1;
-
             for (let m = mStart; m <= 12; m++) {
               const value = `${y}-${String(m).padStart(2, "0")}`;
-
               const item = document.createElement("div");
               item.className = "select-item";
               item.textContent = `${y}年${m}月`;
-
               item.addEventListener("click", () => {
                 monthBox.textContent = item.textContent;
-
-                if (monthInput) {
-                  monthInput.value = value;
-                }
-
+                if (monthInput) monthInput.value = value;
                 monthWrap.classList.remove("open");
               });
-
               monthDrop.appendChild(item);
             }
           }
         }
 
-        /* =====================
-     行程
-  ===================== */
+        /* 行程 */
         const tours = ["義大利", "希臘", "瑞士", "克羅埃西亞", "奥地利·捷克", "法國"];
-
         const tourWrap = document.getElementById("tourSelect");
-
         if (tourWrap) {
           const tourBox = tourWrap.querySelector(".select-box");
           const tourDrop = tourWrap.querySelector(".select-dropdown");
           const tourInput = document.getElementById("tour");
-
           tours.forEach((text) => {
             const item = document.createElement("div");
             item.className = "select-item";
             item.textContent = text;
-
             item.addEventListener("click", () => {
               tourBox.textContent = text;
-
-              if (tourInput) {
-                tourInput.value = text;
-              }
-
+              if (tourInput) tourInput.value = text;
               tourWrap.classList.remove("open");
             });
-
             tourDrop.appendChild(item);
           });
         }
 
-        /* =====================
-     下拉選單開關
-  ===================== */
+        /* 下拉選單開關 */
         document.querySelectorAll(".custom-select").forEach((el) => {
           const box = el.querySelector(".select-box");
-
           if (!box) return;
-
           box.addEventListener("click", () => {
             document.querySelectorAll(".custom-select").forEach((x) => {
-              if (x !== el) {
-                x.classList.remove("open");
-              }
+              if (x !== el) x.classList.remove("open");
             });
-
             el.classList.toggle("open");
           });
         });
 
-        /* =====================
-     點外面關閉
-  ===================== */
+        /* 點外面關閉 */
         document.addEventListener("click", (e) => {
           if (!e.target.closest(".custom-select")) {
             document.querySelectorAll(".custom-select").forEach((x) => {
@@ -922,11 +850,8 @@
           }
         });
 
-        /* =====================
-     表單送出
-  ===================== */
+        /* 表單送出 */
         const form = document.getElementById("honeymoonForm");
-
         if (form) {
           form.addEventListener("submit", function (e) {
             if (!this.checkValidity()) {
@@ -934,9 +859,7 @@
               this.reportValidity();
               return;
             }
-
             e.preventDefault();
-
             alert("表單已成功送出！");
           });
         }
