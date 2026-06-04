@@ -47,12 +47,6 @@ a {
 	overflow: hidden;
 }
 
-/* html, body {
-  width: 100%;
-  max-width: 100%;
-  overflow-x: hidden; 
-
-} */
 
 /* 2. 圖片避免撐爆 */
 .scroll-target img {
@@ -254,22 +248,22 @@ a {
 }
 
 .py-25 {
-  	padding-top: 25px !important;
+  padding-top: 25px !important;
 	padding-bottom: 25px !important;
 }
 
 .py-25-sm {
-  	padding-top: 25px !important;
+  padding-top: 25px !important;
 	padding-bottom: 25px !important;
 }
 
 .py-80 {
-  	padding-top: 80px !important;
+  padding-top: 80px !important;
 	padding-bottom: 80px !important;
 }
 
 .py-100 {
-  	padding-top: 100px ;
+  padding-top: 100px ;
 	padding-bottom: 100px ;
 }
 
@@ -471,28 +465,28 @@ section:nth-last-child {
 }
 
 @keyframes move {
-    0% {
-        margin-top: 0;
-    }
-    25% {
-        margin-top: 8px;
-    }
-    50% {
-        margin-top: 0;
-    }
-    75% {
-        margin-top: 8px;
-    }
-    100% {
-        margin-top: 0;
-    }
+  0% {
+    margin-top: 0;
+  }
+  25% {
+    margin-top: 8px;
+  }
+  50% {
+    margin-top: 0;
+  }
+  75% {
+    margin-top: 8px;
+  }
+  100% {
+    margin-top: 0;
+  }
 }
 
 /* 大標 小標 */
 .hny-bigmark {
 	width: 40%;
-    -webkit-animation: opacity 2s ease-in, move 2s ease-in infinite;
-    animation: opacity 3s ease-in, move 3s ease-in infinite;
+  -webkit-animation: opacity 2s ease-in, move 2s ease-in infinite;
+  animation: opacity 3s ease-in, move 3s ease-in infinite;
 }
 
 
@@ -551,7 +545,7 @@ section:nth-last-child {
 
 @media (max-width: 1199.98px) { 
 	.banner {
-  		top: -50px;
+    top: -50px;
 	}
 }
 
@@ -568,7 +562,7 @@ section:nth-last-child {
 		position: absolute;
 		top: 23%;
 		left: 0;
-    	right: 0;
+    right: 0;
 	}
 
   .swiper-slide-caption-3 {
@@ -599,17 +593,17 @@ section:nth-last-child {
 }
 
 .button-honey {
-  	width: calc((100% - 60px) / 4);
-    max-width: 230px;
-    height: 70px;
-  	list-style: none;
-  	border-radius: 999px;
-  	background: var(--lightblue4);
-  	display: flex;
-  	align-items: center;
-  	justify-content: center;
-  	cursor: pointer;
-    box-shadow:
+  width: calc((100% - 60px) / 4);
+  max-width: 230px;
+  height: 70px;
+  list-style: none;
+  border-radius: 999px;
+  background: var(--lightblue4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow:
     0 10px 18px rgba(6, 141, 219, 0.5),
     0 4px 8px rgba(0,0,0,0.06),
     inset 0 1px 0 rgba(255,255,255,0.8);  	
@@ -624,12 +618,6 @@ section:nth-last-child {
 
 .button-honey:hover {
   transform: translateY(-5px);
-}
-
-@media (max-width: 1399.98px) { 
-	/* .button-honey-top {
-   		top: 100px;
-	} */
 }
 
 @media (max-width: 1199.98px) { 
@@ -658,7 +646,7 @@ section:nth-last-child {
 
 /* 614以下固定 2 欄置中 */
 
-@media (max-width: 614px) {
+@media (max-width: 614.98px) {
 
   .button-honey-top {
     width: 100%;
@@ -690,7 +678,6 @@ section:nth-last-child {
 }
 
 /* 簡介 */
-
 .synopsis-box {
   text-align: center;
 }
@@ -716,10 +703,8 @@ section:nth-last-child {
 /* 專案第一區 */
 .bg-1 {
   position: relative;
-
   margin-top: -180px;
   padding: 110px 0 0;
-
   background: url(../images/bg-1.png) center top no-repeat;
   background-size: cover;
 }
@@ -786,9 +771,7 @@ section:nth-last-child {
 }
 
 
-
 /* 主圖 */
-
 @media (min-width: 1600px) {
   .honeymoon-wrap .right {
     width: 65%;
@@ -799,7 +782,7 @@ section:nth-last-child {
 
 @media (min-width: 1400px) {
 	.pet-box {
-    	padding-bottom: 100px;
+    padding-bottom: 100px;
 	}
 }
 
@@ -823,7 +806,6 @@ section:nth-last-child {
   .bg-1 {
     padding: 70px 0 0;
   } 
-
 }
 
 @media (max-width: 991px) {
@@ -835,12 +817,12 @@ section:nth-last-child {
 
     .honeymoon-wrap .left,
     .honeymoon-wrap .right {
-        width: 100%;
+      width: 100%;
     } 
 
     .honeymoon-wrap .right {
-        margin-top: -220px;
-        text-align: center;
+      margin-top: -220px;
+      text-align: center;
     }
 
     .pet-title {
@@ -862,8 +844,8 @@ section:nth-last-child {
 	}
 
 	.honeymoon-wrap {
-      padding-top: 45px;
-    }
+    padding-top: 45px;
+  }
 
 	.honeymoon-wrap .right {
 		margin-top: 0;
@@ -903,7 +885,6 @@ section:nth-last-child {
 	margin-top: -100px;
 }
 
-
 /* 三欄排版 */
 .info-block {
   display: flex;
@@ -924,7 +905,7 @@ section:nth-last-child {
 .info-item .gwp-2,
 .info-item .gwp-3 {
 	height: auto;
-  	margin-bottom: 10px;
+  margin-bottom: 10px;
 	width: 25%;
 }
 
@@ -988,7 +969,7 @@ section:nth-last-child {
 .info-text {
   margin: 10px 10px 30px;
   font-size: 22px;
-  font-weight: 500;
+  font-weight: 600;
 	font-family: "微軟正黑體";
   line-height: 1.8;
   color: var(--brown);
@@ -1043,7 +1024,7 @@ section:nth-last-child {
   color: var(--brown);
   font-size:22px;
   letter-spacing: 0.1rem;
-	font-weight: 500;
+	font-weight: 600;
 	font-family: "微軟正黑體";
   line-height:1.5;
   padding: 10px 0;
@@ -1072,7 +1053,6 @@ section:nth-last-child {
   margin-bottom:8px;
   display: flex;
   align-items: center;  
-  /* text-indent: 20px; */
 }
 
 .notice .fa-square {
@@ -1086,16 +1066,10 @@ section:nth-last-child {
 
 /* 裝飾 */
 .bg-3 img {
-    z-index: 12;
-    width: 100vw;
-    height: auto;
-    position: relative;
-}
-
-@media (min-width: 1900px) {
-  /* .limited-top {
-    margin-top: 65px;
-  } */
+  z-index: 12;
+  width: 100vw;
+  height: auto;
+  position: relative;
 }
 
 @media (min-width: 2500px) { 
@@ -1104,8 +1078,8 @@ section:nth-last-child {
 	}
 
 	.bg-2 {
-    	padding: 60px 0 100px;
-      margin-top: -230px;
+    padding: 60px 0 100px;
+    margin-top: -230px;
 	}
 }
 
@@ -1449,7 +1423,6 @@ section:nth-last-child {
     line-height: 30px;
   }
 
-
 	.notice {
     width: 100%;
   }
@@ -1537,7 +1510,6 @@ section:nth-last-child {
   .scroll-tag {
     gap: 15px;
   }
-
 }
 
 @media (max-width: 375.98px) {
@@ -1548,10 +1520,7 @@ section:nth-last-child {
   .scroll-tag {
     width: 90%;
   }
-
 }
-
-
 
 @media (max-width: 320.98px) {
 	.feedback-sub::after {
@@ -1571,8 +1540,8 @@ section:nth-last-child {
 /* 推薦行程 */
 .honeymoon-section {
   background-image: url("../images/bg-4.jpg");
-  background-repeat: no-repeat;   /* ⭐關鍵 */
-  background-size: cover;  /* 建議加 auto */
+  background-repeat: no-repeat;   
+  background-size: cover; 
 
   padding: 70px 20px;
   position: relative;
@@ -1597,7 +1566,7 @@ section:nth-last-child {
   display: block;
   margin: 0 auto;
 
-  position: relative; /* 或 absolute 看你要疊 */
+  position: relative; 
   z-index: 2;
 }
 
@@ -1715,7 +1684,7 @@ section:nth-last-child {
   color: var(--pink4);
   text-decoration: none;
 
-  padding: 14px 45px 14px 38px; /* 右側留空間 */
+  padding: 14px 45px 14px 38px; 
 
   border-radius: 999px;
   font-size: 20px;
@@ -1750,7 +1719,6 @@ section:nth-last-child {
 .bottom-btn-wrap{
   text-align: center;
   margin-top: 25px
-  
 }
 
 .bottom-btn{
@@ -1767,8 +1735,6 @@ section:nth-last-child {
 
   font-size: 22px;
   font-weight: bold;
-
-
   transition: .35s ease;
 }
 
@@ -1800,7 +1766,6 @@ section:nth-last-child {
   .tour-btn::after {
     right: 14px;
   }
-
 }
 
 @media (max-width: 1199.98px) {
@@ -1835,11 +1800,10 @@ section:nth-last-child {
 	.honeymoon-section .honeymoon-box {
     	gap: 50px 25px;
 	}
-
 }
 
 /* 手機 */
-@media (max-width: 767.98px){
+@media (max-width: 767.98px) {
 
   .honeymoon-section{
     padding: 0 16px 50px;
@@ -1880,16 +1844,12 @@ section:nth-last-child {
   }
 }
 
-@media (max-width: 575.98px){
+@media (max-width: 575.98px) {
   .tour-content h3{
     font-size: 22px;
   }
 
 }
-
-/* =========================
-   推薦名論（完整修正版）
-========================= */
 
 .review-section {
   background: url(../images/bg-6.jpg) top no-repeat;
@@ -1919,23 +1879,21 @@ section:nth-last-child {
   }
 }
 
-/* =======================
-   上方主視覺
-======================= */
+/* 上方主視覺 */
 
 .hero-area {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 70px;
-    min-height: 280px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 70px;
+  min-height: 280px;
 }
 
 .heart-review {
-    display: flex;
-    gap: 4px;
-    align-items: center;
+  display: flex;
+  gap: 4px;
+  align-items: center;
 }
 
 .heart-review i {
@@ -1945,78 +1903,71 @@ section:nth-last-child {
 }
 
 .photo-card {
-    width: 80%;
-    transform: rotate(-7deg) translateX(-250px);
-    filter: drop-shadow(0 12px 18px rgba(0, 0, 0, 0.18));
-    position: relative;
-    z-index: 2;
+  width: 80%;
+  transform: rotate(-7deg) translateX(-250px);
+  filter: drop-shadow(0 12px 18px rgba(0, 0, 0, 0.18));
+  position: relative;
+  z-index: 2;
 }
 
 .paper-note {
-    position: absolute;
-    right: 57px;
-    top: 62%;
-    transform: translateY(-30%);
-    width: 520px;
-    z-index: 3;
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 10px 25px;
-    clip-path: polygon(0% 6%, 4% 0%, 98% 4%, 100% 18%, 96% 100%, 2% 96%);
-    overflow: hidden;
+  position: absolute;
+  right: 57px;
+  top: 62%;
+  transform: translateY(-30%);
+  width: 520px;
+  z-index: 3;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 10px 25px;
+  clip-path: polygon(0% 6%, 4% 0%, 98% 4%, 100% 18%, 96% 100%, 2% 96%);
+  overflow: hidden;
 }
 
 .paper-note img {
-    width: 100%;
-    height: auto;
-    display: block;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .feedback {
-    position: absolute;
-    right: -75px;
-    top: 39%;
-    transform: translateY(-30%);
-    width: 430px;
-    z-index: 3;
-    box-shadow: rgba(0, 0, 0, 0.12) 0px 10px 25px;
-    clip-path: polygon(0% 6%, 4% 0%, 98% 4%, 100% 18%, 96% 100%, 2% 96%);
-    overflow: hidden;
+  position: absolute;
+  right: -75px;
+  top: 39%;
+  transform: translateY(-30%);
+  width: 430px;
+  z-index: 3;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 10px 25px;
+  clip-path: polygon(0% 6%, 4% 0%, 98% 4%, 100% 18%, 96% 100%, 2% 96%);
+  overflow: hidden;
 }
 
 .feedback img {
-    width: 100%;
-    height: auto;
-    display: block;
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
-/* =======================
-   ⭐ 輪播（重點修正版）
-======================= */
-
 .slider-wrap {
-    position: relative;
-    padding-right: 40px;
-    padding-bottom: 30px;
-    box-sizing: border-box;
+  position: relative;
+  padding-right: 40px;
+  padding-bottom: 30px;
+  box-sizing: border-box;
 }
 
 .slider {
-    overflow: hidden;
+  overflow: hidden;
+  width: calc(95% + 30px);
 
-    width: calc(95% + 30px);
-
-    padding: 15px;
-    margin-left: -15px;
-
-    box-sizing: border-box;
+  padding: 15px;
+  margin-left: -15px;
+  box-sizing: border-box;
 }
 
 .slider-track {
-    display: flex;
-    gap: 37px;
-    padding: 0 20px 0 0;
-
-    transition: transform 0.6s ease;
-    will-change: transform;
+  display: flex;
+  gap: 37px;
+  padding: 0 20px 0 0;
+  transition: transform 0.6s ease;
+  will-change: transform;
 }
 
 /* ===== 卡片 ===== */
@@ -2030,16 +1981,13 @@ section:nth-last-child {
   margin: 30px 0;
 
   overflow: hidden;
-
   border-radius: 24px;
   background: #fff;
-
   box-shadow: rgba(220, 99, 147, 0.822) 0 0 30px -17px, rgba(212, 69, 88, 0.575) 0 0 16px -3px;
-
   transform: translateZ(0);
 }
 
-/* ===== 共用層 ===== */
+/* 共用層 */
 .review-front,
 .review-back {
   position: absolute;
@@ -2052,21 +2000,18 @@ section:nth-last-child {
               opacity 0.8s ease;
 
   will-change: transform, opacity;
-
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
-
   opacity: 1;
 }
 
-/* ===== 前面 ===== */
+/*  前面  */
 .review-front {
   transform: translateY(0%);
   opacity: 1;
   z-index: 2;
 }
 
-/* ===== 後面（🔥關鍵修正） ===== */
 .review-back {
   display: flex;
   flex-direction: column;
@@ -2074,17 +2019,14 @@ section:nth-last-child {
   justify-content: center;
   align-items: center;
   text-align: center;
-
   padding: 20px;
   transform: translateY(100%);
   opacity: 0;
-
   z-index: 1;
-
   pointer-events: none;
 }
 
-/* ===== hover 動畫 ===== */
+/* hover 動畫 */
 .review-card:hover .review-front {
   transform: translateY(-100%);
   opacity: 0;
@@ -2108,7 +2050,7 @@ section:nth-last-child {
   width: 13%;
 }
 
-/* ===== 內容樣式 ===== */
+/* 內容樣式 */
 .heart-review {
   font-size: 20px;
   margin-bottom: 18px;
@@ -2140,7 +2082,7 @@ section:nth-last-child {
   margin-bottom: 15px;
 }
 
-/* ===== 文字 行限制 ===== */
+/* 文字 行限制 */
 .review-text {
   color: var(--brown);
   font-size: 16px;
@@ -2172,7 +2114,7 @@ section:nth-last-child {
 }
 
 
-/* ===== 右下角按鈕 ===== */
+/* 右下角按鈕 */
 .review-btn {      
   align-self: flex-end;  
 
@@ -2180,12 +2122,10 @@ section:nth-last-child {
   font-size: 15px;
   font-weight: 600;
 
-  color: #fff;
+  color: var(--white);
   background: var(--pink4);
   border-radius: 999px;
-
   text-decoration: none;
-
   transition: 0.3s ease;
 }
 
@@ -2206,7 +2146,6 @@ section:nth-last-child {
   justify-content: center;
   align-items: center;
   gap: 4px;
-
   margin-top: 20px;
 }
 
@@ -2252,9 +2191,6 @@ section:nth-last-child {
   background: url("../images/arrow-1.png") center/contain no-repeat;
 }
 
-/* =======================
-   RWD（關鍵修正版）
-======================= */
 .review-text {
   color: var(--brown);
   font-size: 16px;
@@ -2295,7 +2231,6 @@ section:nth-last-child {
   .feedback {
     top: 43%;
   }
-  
 }
 
 @media (max-width: 1199.98px) {
@@ -2370,8 +2305,7 @@ section:nth-last-child {
 
   .rec-adron {
     top: 33%;
-	}
-	
+	}	
 }
 
 @media (max-width: 768.98px) {
@@ -2494,7 +2428,6 @@ section:nth-last-child {
 }
 
 /* 專屬蜜月諮詢 */
-
 .cons {
   position: relative;
   min-height: 100vh;
@@ -2594,10 +2527,6 @@ section:nth-last-child {
 }
 
 /* 表單 */
-/* =========================
-   表單卡片
-========================= */
-
 .cons .form-card {
   position: relative;
   max-width: 460px;
@@ -2609,7 +2538,6 @@ section:nth-last-child {
 
   box-shadow: 0 10px 30px rgba(0,0,0,.08);
   z-index: 20;
-
   transform: translateX(93%) translateY(0);
 }
 
@@ -2627,10 +2555,8 @@ section:nth-last-child {
 .cf-title {
   display: flex;
   justify-content: center;
-
   width: 80%;
   margin: auto;
-
   padding: 15px 0 30px;
 }
 
@@ -2646,9 +2572,7 @@ section:nth-last-child {
   margin-bottom: 18px;
 }
 
-/* =========================
-   兩欄
-========================= */
+/* 兩欄 */
 
 .cons .two-col {
   display: grid;
@@ -2658,9 +2582,7 @@ section:nth-last-child {
   row-gap: 18px;
 }
 
-/* =========================
-   label
-========================= */
+/* label */
 
 .cons label {
   display: block;
@@ -2680,9 +2602,7 @@ section:nth-last-child {
   font-size: 18px;
 }
 
-/* =========================
-   input
-========================= */
+/* input */
 
 .cons input {
   width: 100%;
@@ -2693,13 +2613,10 @@ section:nth-last-child {
 
   border-radius: 8px;
   border: 1px solid var(--pink5);
-
   background: var(--pinkwhite);
-
   color: var(--pink4);
   font-size: 16px;
   letter-spacing: 0.08rem;
-
   outline: none;
   transition: .3s;
 }
@@ -2720,10 +2637,7 @@ section:nth-last-child {
   border-color: #ff6b6b;
 }
 
-/* =========================
-   自訂 select
-========================= */
-
+/* 自訂select */
 .cons .custom-select {
   position: relative;
   width: 100%;
@@ -2739,16 +2653,12 @@ section:nth-last-child {
   align-items: center;
 
   padding: 0 40px 0 14px;
-
   border-radius: 8px;
-
   border: 1px solid var(--pink5);
   background: var(--pinkwhite);
-
   color: var(--pink4);
   font-size: 16px;
   line-height: 18px;
-
   transition: .3s;
 }
 
@@ -2788,19 +2698,13 @@ section:nth-last-child {
 
   width: 100%;
 
-  min-width: 320px;   /* ✅ 新增：避免太窄 */
-
+  min-width: 320px; 
   max-height: 180px;
   overflow-y: auto;
-
   background: #fff;
-
   border-radius: 10px;
-
   box-shadow: 0 10px 25px rgba(0,0,0,0.15);
-
   display: none;
-
   z-index: 9999;
 }
 
@@ -2833,9 +2737,7 @@ section:nth-last-child {
   display: none;
 }
 
-/* =========================
-   送出按鈕
-========================= */
+/* 送出按鈕 */
 
 .cons .submit-btn {
   width: 230px;
@@ -2895,29 +2797,23 @@ section:nth-last-child {
   }
 }
 
-
-/* =========================
-   平板
-========================= */
-
-@media (max-width: 1199px){
-
-  .cons .note{
+@media (max-width: 1199.98px){
+  .cons .note {
     left: 100px;
     width: 70%;
   }
 
-  .cons .ring{
+  .cons .ring {
     right: 60px;
     top: 140px;
   }
 
-  .cons .envelope{
+  .cons .envelope {
     left: 40px;
     width: 400px;
   }
 
-  .cons .form-card{
+  .cons .form-card {
     margin: 60px auto 0;
     transform: translateX(11%) translateY(0);
   }
@@ -2937,7 +2833,7 @@ section:nth-last-child {
    手機
 ========================= */
 
-@media (max-width: 991px){
+@media (max-width: 991.98px) {
 
   .cons {
     padding: 0 20px 0;
@@ -2948,7 +2844,7 @@ section:nth-last-child {
     min-height: auto;
   }
 
-  .cons .title-wrap{
+  .cons .title-wrap {
     position: relative;
 
     top: auto;
@@ -2958,18 +2854,18 @@ section:nth-last-child {
     margin: 0 auto ;
   }
 
-  .cons .note{
+  .cons .note {
     width: 75%;
     left: 90px;
   }
 
-  .cons .form-card{
+  .cons .form-card {
     margin: 20px auto 0;
     transform: none; 
   }
 
   .cons .star-left,
-  .cons .star-right{
+  .cons .star-right {
     display: none;
   }
 
@@ -2988,12 +2884,7 @@ section:nth-last-child {
   }
 }
 
-/* =========================
-   手機最小
-========================= */
-
-@media (max-width: 575px){
-
+@media (max-width: 575px) {
   .cons {
     padding: 50px 15px 0;
   }
@@ -3007,7 +2898,6 @@ section:nth-last-child {
     margin-top: 10px;
     left: 0;
   }
-
 
   .cons .form-card {
     margin: 10px auto 0;
@@ -3024,21 +2914,21 @@ section:nth-last-child {
 
 
   /* 避免欄位擠爆 */
-  .cons .two-col{
+  .cons .two-col {
     grid-template-columns: 1fr;
     gap: 14px;
   }
 
-  .cons label{
+  .cons label {
     font-size: 17px;
   }
 
   .cons input,
-  .cons select{
+  .cons select {
     font-size: 15px;
   }
 
-  .cons .submit-btn{
+  .cons .submit-btn {
     width: 100%;
     font-size: 18px;
     margin: 30px auto 0;
@@ -3065,13 +2955,11 @@ section:nth-last-child {
   }
 }
 
-@media (max-width: 575px){
+@media (max-width: 575.98px) {
   #honeymoonForm {
     width: 90%;
   }
-
 }
-
 
 /*  footer  */
 .QR-code {
@@ -3096,7 +2984,7 @@ section:nth-last-child {
   white-space:nowrap;
 }
 
-.footer-bg{
+.footer-bg {
   background-color: var(--pink);
 }
 
@@ -3111,10 +2999,6 @@ section:nth-last-child {
   align-items: flex-end;
   width: 25%;
   margin: 20px 0;
-}
-
-.contact-box p span {
-  letter-spacing: 0.2rem;
 }
 
 .foot-wrap {
