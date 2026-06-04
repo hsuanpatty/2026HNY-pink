@@ -876,6 +876,7 @@ section:nth-last-child {
 	}
 
   .bg-1 {
+    background: url(../images/bg-1-sm.png) center top no-repeat;
     background-position: calc(53% - 400px) top;
     margin-top: -160px;
     padding: 85px 0 0;
