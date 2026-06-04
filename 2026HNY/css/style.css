@@ -1617,7 +1617,7 @@ section:nth-last-child {
 
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 45px 28px;
+  gap: 60px 28px;
 
   padding: 40px 0;
 }
@@ -2854,6 +2854,21 @@ section:nth-last-child {
 .cons .submit-btn:hover {
   transform: translateY(-3px);
   box-shadow: 0 10px 20px rgba(44,169,239,.3);
+}
+
+@media (min-width: 2100px) {
+  .cons {
+    margin-top: -240px;
+  }
+
+  .pet-box {
+    padding-bottom: 0;
+  } 
+
+  .limited-top {
+    position: relative;
+    margin-top: 25px;
+  }
 }
 
 @media (max-width: 1399.98px){
