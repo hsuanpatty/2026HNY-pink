@@ -1247,8 +1247,12 @@ section:nth-last-child {
     gap: 15px;
 	}
 
-	.honey-text {
-    width: 120px;
+  .honey-text {
+    width: 100px;
+  }
+
+  .button-honey {
+    height: 55px;
   }
 }
 
@@ -1256,10 +1260,6 @@ section:nth-last-child {
 	.scroll-tag {
     gap: 10px;
 	}
-
-  .honey-text {
-    width: 100px;
-  }
 
   .pet-title {
     margin: 55px auto 0;
@@ -1519,7 +1519,7 @@ section:nth-last-child {
 	
 
   .scroll-tag {
-    gap: 7px;
+    gap: 15px;
 	}
 
   .honey-text {
@@ -1542,6 +1542,11 @@ section:nth-last-child {
   .pet-title {
     margin: 30px auto 0;
   }
+
+  .scroll-tag {
+    width: 90%;
+  }
+
 }
 
 
