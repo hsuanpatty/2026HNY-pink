@@ -973,7 +973,7 @@ section:nth-last-child {
 	font-family: "微軟正黑體";
   line-height: 1.8;
   color: var(--brown);
- 	letter-spacing: 0.1rem;
+ 	letter-spacing: 0.05rem;
 }
 
 .info-item:nth-child(2) .info-text {
@@ -1257,7 +1257,7 @@ section:nth-last-child {
   .info-text {
     font-size: 16px;
     margin: 20px 10px 10px;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 25px;
   }
 
@@ -1419,8 +1419,8 @@ section:nth-last-child {
 	.info-section .text {
     font-size: 16px;
     text-align: center;
-    letter-spacing: 0.02rem;
-    line-height: 30px;
+    letter-spacing: 0;
+    line-height: 24px;
   }
 
 	.notice {
@@ -1662,9 +1662,10 @@ section:nth-last-child {
 .tour-content p{
   color: var(--brown);
   font-size: 18px;
-  line-height: 2;
+  line-height: 1.6;
   padding-top: 10px;
   text-align: left;
+  text-align: justify;   
 
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -1823,7 +1824,7 @@ section:nth-last-child {
 
   .tour-content {
     min-height: auto;
-    padding: 24px 22px 70px;
+    padding: 24px 22px 50px;
   }
 
   .tour-content h3 {
@@ -1832,6 +1833,7 @@ section:nth-last-child {
 
   .tour-content p {
     font-size: 16px;
+    height: 80px;
   }
 
   .tour-btn {
