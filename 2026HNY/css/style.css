@@ -1023,7 +1023,7 @@ section:nth-last-child {
 .info-section .text {
   color: var(--brown);
   font-size:22px;
-  letter-spacing: 0.1rem;
+  letter-spacing: 0.05rem;
 	font-weight: 600;
 	font-family: "微軟正黑體";
   line-height:1.5;
@@ -1685,6 +1685,7 @@ section:nth-last-child {
   text-decoration: none;
 
   padding: 14px 45px 14px 38px; 
+  width: 110px;
 
   border-radius: 999px;
   font-size: 20px;
