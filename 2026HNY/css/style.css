@@ -1,6 +1,6 @@
 @charset "UTF-8";
 * {
-  /* transition: 0.5s; */
+  transition: 0.5s;
   margin: 0;
 }
 
@@ -1140,6 +1140,13 @@ section:nth-last-child {
   }
 }
 
+@media (max-width: 1299.98px) {
+  .bg-2 {
+    overflow: hidden;
+    padding: 60px 0 80px;
+  }
+}
+
 @media (max-width: 1199.98px) {
 	.feedback-sub::after {
     right: -20%;
@@ -1173,6 +1180,10 @@ section:nth-last-child {
   .bg-2 {
     padding: 60px 0 40px;
 	}
+
+  .sec4 .title-img { 
+    width: 40%;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -1206,10 +1217,6 @@ section:nth-last-child {
 	.info-item:nth-child(3) {
 		padding-bottom: 20px;
 	}
-
-  .sec4 .title-img { 
-    width: 40%;
-  }
 }
 
 @media (max-width: 891.98px) {
@@ -2263,6 +2270,11 @@ section:nth-last-child {
   .dots {
     margin-top: 18px;
   } 
+
+
+  .rec-title {
+    width: 50%;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -2381,9 +2393,9 @@ section:nth-last-child {
   }
 
   .photo-card {
-    width: 114%;
+    width: 110%;
     transform: rotate(-7deg) translateX(-12%);
-    top: -20px;
+    top: 10px;
   }
 
 	.paper-note {
@@ -2427,6 +2439,13 @@ section:nth-last-child {
 
   .review-front, .review-back {
     padding: 30px 20px;
+  }
+}
+
+@media (max-width: 375.98px) {
+  .photo-card {
+    width: 114%;
+    top: -20px;
   }
 }
 
@@ -2844,6 +2863,7 @@ section:nth-last-child {
   }
 
   .cons .content {
+    margin-top: -20px;
     min-height: auto;
   }
 
@@ -2882,14 +2902,12 @@ section:nth-last-child {
     left: -16px;
   }
 
-  .cons .content {
-    margin-top: -130px;
-  }
 }
 
-@media (max-width: 575px) {
+@media (max-width: 575.98px) {
   .cons {
     padding: 50px 15px 0;
+    margin-top: -110px;
   }
 
   .cons .title-wrap {
@@ -2956,12 +2974,11 @@ section:nth-last-child {
   .cons .form-deco {
     width: 95%;
   }
-}
 
-@media (max-width: 575.98px) {
-  #honeymoonForm {
-    width: 90%;
+  .paper-note img {
+    width: 100%;
   }
+
 }
 
 /*  footer  */
@@ -3075,6 +3092,13 @@ section:nth-last-child {
     width: calc(30% - 1px);
   }
 }
+
+@media (min-width: 768px) { 
+  .footer-left br {
+    display: none;
+  }
+}
+
 
 @media (max-width: 1499.98px) {
   .contact-box:last-of-type {
@@ -3198,6 +3222,10 @@ section:nth-last-child {
     margin-bottom: 10px;
     margin-top: 15px;
   } 
+  
+  .footer-left h4 {
+    font-size: 18px;
+  }
 }
 
 /* TOP */
