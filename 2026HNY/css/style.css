@@ -1778,6 +1778,10 @@ section:nth-last-child {
 }
 
 @media (max-width: 1399.98px) {
+  .honeymoon-section {
+    padding: 70px 20px 0;
+  }
+
   .honeymoon-section .py-100 {
     padding: 20px 0 0;
   }
@@ -2887,7 +2891,7 @@ section:nth-last-child {
 
   .cons {
     padding: 0 20px 0;
-    margin-top: -20px;
+    margin-top: -35px;
   }
 
   .cons .content {
