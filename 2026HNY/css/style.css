@@ -3225,7 +3225,7 @@ section:nth-last-child {
   }
 
   .footer-left {
-    width: 100%;
+    width: 88%;
   }
 
   .footer-right {
@@ -3283,6 +3283,7 @@ section:nth-last-child {
   }
 
   .footer-left {
+    width: 100%;
     text-align: center;
   }
   
