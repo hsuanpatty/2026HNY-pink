@@ -1,6 +1,5 @@
 @charset "UTF-8";
 * {
-  transition: 0.5s;
   margin: 0;
 }
 
@@ -640,7 +639,7 @@ section:nth-last-child {
 }
 
 @media (max-width: 991.98px) {
-  .honey-text { width: 140px; }
+  .honey-text { width: 100px; }
   .button-honey { max-width: 130px; }
 }
 
@@ -1018,7 +1017,7 @@ section:nth-last-child {
 .sec4 .title-img {
   display:block;
   width: 30%;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
   margin: auto;
 }
 
@@ -1122,7 +1121,6 @@ section:nth-last-child {
 
 	.bg-2 {
 		overflow: hidden;
-    padding: 60px 0 10px;
 	}
 
   .review-section {
@@ -1145,7 +1143,7 @@ section:nth-last-child {
 @media (max-width: 1299.98px) {
   .bg-2 {
     overflow: hidden;
-    padding: 60px 0 px;
+    padding: 60px 0;
   }
 }
 
@@ -1332,7 +1330,7 @@ section:nth-last-child {
 	
   .sec4 .title-img {
     width: 40%;
-    margin: 50px auto 10px;
+    margin: 0 auto 10px;
   }
 
   .cons .note {
@@ -1444,7 +1442,7 @@ section:nth-last-child {
 
   .sec4 .title-img {
     width: 100%;
-    margin: -15px auto 10px;
+    margin: -20px auto 10px;
   }
 
   .pet-title {
@@ -1466,6 +1464,10 @@ section:nth-last-child {
   .limited-top {
 	  margin-top: 40px;
 	}
+
+  .sec4 .title-img {
+    margin: 50px auto 10px;
+  }
 
 }
 
@@ -1545,10 +1547,6 @@ section:nth-last-child {
 
 	.notice {
     width: 100%;
-  }
-
-	.info-item:nth-child(3) {
-    padding-bottom: 120px;
   }
 }
 
@@ -1827,9 +1825,10 @@ section:nth-last-child {
 @media (max-width: 767.98px) {
 
   .honeymoon-section{
-    padding: 0 16px 50px;
+    padding: 0 16px 0;
     z-index: 1;
     margin-top: -24px;
+    z-index: 2;
   }
 
   .honeymoon-section .honeymoon-box {
@@ -1870,6 +1869,12 @@ section:nth-last-child {
   .tour-content h3{
     font-size: 22px;
   }
+
+  .honeymoon-section{
+    padding: 0 16px;
+    margin-top: -24px;
+  }
+
 
 }
 
@@ -2831,7 +2836,8 @@ section:nth-last-child {
   }
 
   .cons .ring {
-    right: 170px;
+    top: 250px;
+    right: 140px;
   }
 
   .cons .content {
@@ -2847,8 +2853,9 @@ section:nth-last-child {
   }
 
   .cons .ring {
+    top: 200px;
     right: 60px;
-    top: 140px;
+    width: 150px;
   }
 
   .cons .envelope {
@@ -2884,7 +2891,7 @@ section:nth-last-child {
   }
 
   .cons .content {
-    margin-top: -20px;
+    margin-top: 40px;
     min-height: auto;
   }
 
@@ -2922,12 +2929,6 @@ section:nth-last-child {
   .cons .envelope {
     left: -16px;
   }
-
-  .cons .content {
-    margin-top: 40px;
-  }
-
-
 }
 
 @media (max-width: 891.98px) {
@@ -2936,10 +2937,20 @@ section:nth-last-child {
   }
 }
 
+@media (max-width: 767.98px) {
+  .cons {
+    margin-top: -200px;
+  }
+
+  .cons .content {
+    margin-top: 200px;
+  }
+
+}
+
 @media (max-width: 575.98px) {
   .cons {
-    padding: 50px 15px 0;
-    margin-top: -110px;
+    padding: 0 15px;
   }
 
   .cons .title-wrap {
@@ -2949,6 +2960,7 @@ section:nth-last-child {
   .cons .note {
     width: 100%;
     margin-top: 10px;
+    margin-bottom: 10px;
     left: 0;
   }
 
@@ -3001,6 +3013,7 @@ section:nth-last-child {
 
   .cons .content {
     margin-bottom: 50px;
+    margin-top: 40px;
   }
 
   .cons .form-deco {
@@ -3009,6 +3022,17 @@ section:nth-last-child {
 
   .paper-note img {
     width: 100%;
+  }
+
+}
+
+@media (max-width: 550.98px) {
+  .cons {
+    margin-top: -100px;
+  }
+
+  .bottom-btn-wrap {
+    margin: -20px 0 0px;
   }
 
 }
@@ -3227,10 +3251,17 @@ section:nth-last-child {
   .contact-box p {
     margin-bottom: 2px;
   }
+  
+  .footer-bg .container {
+    max-width: 580px;
+  }
+
+  .footer-line {
+    margin: 10px 3%;
+  }
 }
 
-
-@media (max-width: 500px) {
+@media (max-width: 575px) {
   /*============== footer ==============*/
   .foot-wrap {
       width: 88%;
