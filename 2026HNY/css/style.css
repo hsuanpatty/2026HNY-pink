@@ -3211,6 +3211,11 @@ section:nth-last-child {
   .footer-left {
     margin: auto;
   }
+
+  .footer-right {
+    width: 100%;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -3224,7 +3229,7 @@ section:nth-last-child {
   }
 
   .footer-right {
-    width: 45%;
+    width: 100%;
   }
 
   .footer-left p {
