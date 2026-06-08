@@ -3301,6 +3301,11 @@ section:nth-last-child {
   .footer-left h4 {
     font-size: 18px;
   }
+
+  .contact-box-warp {
+    width: 85%;
+    margin: auto;
+  }
 }
 
 /* TOP */
